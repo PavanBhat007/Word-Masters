@@ -16,12 +16,20 @@ Wordle is a word-guessing game where players have a limited number of attempts t
 
 ## Demo
 
-[Live Demo]()
+Check out the [**live demo**](https://gleeful-platypus-3d12a6.netlify.app/) and have fun :)
 
 ## Screenshots
 
-![Light Mode](./ss1.png)
-![Dark Mode](./ss2.png)
+![Light Mode](./images-for-repo/ss1.png)
+![Dark Mode](./images-for-repo/ss2.png)
+
+### WIN
+Upon, winning an animation is played, which couldn't be captured on the screenshot. <br/>
+![Win](./images-for-repo/win.png)
+
+### LOSS
+If all guesses get exhausted, the bigger display on top turns red and the secret word is revealed. <br/>
+![Loss](./images-for-repo/lose.png)
 
 ## Getting Started
 
