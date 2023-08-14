@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Masters</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <h1 class="brand">WORD - MASTERS</h1>
+        <div class="slider-container">
+            <label class="switch">
+                <input class="ip-box" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <div class="spinner show">
+        <div class="spiral">
+            <img id="loader" src="./Pulse-1s-200px.gif" alt="loading..."/>
+        </div>
+    </div>
+
+    <h1 class="result-heading disp-hide"></h1>
+    <div class="win-loss disp-hide">
+        <div class="game-over letter-0"></div>
+        <div class="game-over letter-1"></div>
+        <div class="game-over letter-2"></div>
+        <div class="game-over letter-3"></div>
+        <div class="game-over letter-4"></div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="scoreboard-letter" id="letter-0"></div>
+        <div class="scoreboard-letter" id="letter-1"></div>
+        <div class="scoreboard-letter" id="letter-2"></div>
+        <div class="scoreboard-letter" id="letter-3"></div>
+        <div class="scoreboard-letter" id="letter-4"></div>
+        <div class="scoreboard-letter" id="letter-5"></div>
+        <div class="scoreboard-letter" id="letter-6"></div>
+        <div class="scoreboard-letter" id="letter-7"></div>
+        <div class="scoreboard-letter" id="letter-8"></div>
+        <div class="scoreboard-letter" id="letter-9"></div>
+        <div class="scoreboard-letter" id="letter-10"></div>
+        <div class="scoreboard-letter" id="letter-11"></div>
+        <div class="scoreboard-letter" id="letter-12"></div>
+        <div class="scoreboard-letter" id="letter-13"></div>
+        <div class="scoreboard-letter" id="letter-14"></div>
+        <div class="scoreboard-letter" id="letter-15"></div>
+        <div class="scoreboard-letter" id="letter-16"></div>
+        <div class="scoreboard-letter" id="letter-17"></div>
+        <div class="scoreboard-letter" id="letter-18"></div>
+        <div class="scoreboard-letter" id="letter-19"></div>
+        <div class="scoreboard-letter" id="letter-20"></div>
+        <div class="scoreboard-letter" id="letter-21"></div>
+        <div class="scoreboard-letter" id="letter-22"></div>
+        <div class="scoreboard-letter" id="letter-23"></div>
+        <div class="scoreboard-letter" id="letter-24"></div>
+        <div class="scoreboard-letter" id="letter-25"></div>
+        <div class="scoreboard-letter" id="letter-26"></div>
+        <div class="scoreboard-letter" id="letter-27"></div>
+        <div class="scoreboard-letter" id="letter-28"></div>
+        <div class="scoreboard-letter" id="letter-29"></div>
+    </div>
+
+    <div class="rules">
+        <ol class="rule-list alternating-colors">
+            <h1 class="rule-header">RULES</h1>
+            <li class="rule">Guess the right word within <b>6 chances</b> only.</li>
+            <li class="rule">The word contains 5 letters that will be entered in the boxes above</li>
+            <li class="rule">
+                After taking your guess, press the Enter key to submit the word.
+                <ul class="sub-list">
+                    <li class="sub-rule">If the <span class="util text-red"> word is not a recognizable word from English dictionary </span> (if you just type gibberish) the boxes flash red and you can take another guess for that chance.</li>
+                    <li class="sub-rule">If any <span class="util text-green"> letter exists in the right word and is in the right position  </span> ,  the corresponding box turns green.</li>
+                    <li class="sub-rule">If any <span class="util text-yellow"> letter exists in the right word but is in the wrong position </span> ,  the corresponding box turns yellow.</li>
+                    <li class="sub-rule">If any <span class="util"> letter doesn't exist in the right word </span> , the box turns grey.</li>
+                </ul>
+            </li>
+            <li class="rule">Use the above clues and find out the right word, if you exhaust all your guesses, then you lose and the secret word is revealed to you.</li>
+            <li class="rule">The secret word changes every day so come back the next day for another try :)</li>
+            <h1><b>HAPPY GUESSING!!</b></h1>
+        </ol>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
